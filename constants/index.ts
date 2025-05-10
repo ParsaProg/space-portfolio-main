@@ -1,4 +1,5 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaYoutube, FaGithub, FaTelegramPlane } from "react-icons/fa";
+
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -96,12 +97,12 @@ export const SOCIALS = [
   },
   {
     name: "GitHub",
-    icon: FaFacebook,
+    icon: FaGithub,
     link: "https://github.com/ParsaProg",
   },
   {
     name: "Telegram",
-    icon: RxTwitterLogo,
+    icon: FaTelegramPlane,
     link: "https://t.me/Parsa_Shaabani",
   },
 ] as const;
